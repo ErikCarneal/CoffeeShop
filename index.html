@@ -22,8 +22,8 @@
 
 <h2>World Famous Coffee</h2>
  
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Hokitika_Cheese_and_Deli%2C_Hokitika_%283526706594%29.jpg/800px-Hokitika_Cheese_and_Deli%2C_Hokitika_%283526706594%29.jpg" alt="our team working" width="300" height="400"
-     
+
+ <img data-src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Hokitika_Cheese_and_Deli%2C_Hokitika_%283526706594%29.jpg/800px-Hokitika_Cheese_and_Deli%2C_Hokitika_%283526706594%29.jpg" alt="our team working" class="lazy" width="300" height="400"
     
   
   <p> We are a local organic coffee shop based in Woodbine, Maryland. We strive to serve the best tasting and all organic coffee! Our prices are reasonable and our coffee is to die for!</p>
@@ -40,7 +40,7 @@
   <li align="left">Greek Coffee: $3</li>
 </ol> 
 
-  <img src="https://www.cdc.gov/homepage/images/cards/get-keep-america-open.jpg" alt="our team working" width="400" height="300"
+ <img data-src="https://www.cdc.gov/homepage/images/cards/get-keep-america-open.jpg" alt="our team working" class="lazy" width="400" height="300"
  
        <p><b>Our Story</b><p>
   
@@ -69,6 +69,13 @@ Click me to display Date and Time.</button>
 
 <p id="demo"></p>
     
+  <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@15.1.1/dist/lazyload.min.js"></script>
+<script type="text/javascript">
+var lazyLoadInstance = new LazyLoad({
+elements_selector: ".lazy"
+// ... more custom settings?
+});
+
   </body>
 </html>
     
